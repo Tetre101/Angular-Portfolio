@@ -1,0 +1,43 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+
+    div {
+        width: 50%;
+
+        h1 {
+            width: 100%;
+            border-bottom: 1px solid white;
+            padding-bottom: 5px;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: none;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            li {
+                width: 15%;
+                background-color: white;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 30px;
+            }
+        }
+    }
+
+    .image {
+        height: 300px;
+        width: 35%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+}

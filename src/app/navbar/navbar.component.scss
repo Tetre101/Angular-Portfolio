@@ -1,9 +1,25 @@
+nav {
+    color: #B6EADA !important;
+
+    a {
+        color: white !important;
+    }
+
+    span {
+        color: white !important;
+    }
+
+    img {
+        width: 10%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     ul {
         li {
             a {
                 text-align: center;
-                border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+                border-bottom: 1px solid white;
             }
         }
     }
