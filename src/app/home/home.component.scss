@@ -52,7 +52,7 @@ button:before {
   position: absolute;
   width: 0;
   height: 100%;
-  background-color: rgb(8, 37, 83);
+  background-color: #6610f2;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -62,5 +62,23 @@ button:before {
 button:hover:before {
   width: 100%;
 }
+.home-page {
+  text-align: center;
+  position: relative;
+  animation: drift-up 1s ease-in-out;
+  animation-fill-mode: backwards;
+  margin-top: 50px;
+}
 
-// 
+@keyframes drift-up {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+//

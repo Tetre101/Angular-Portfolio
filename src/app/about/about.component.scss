@@ -1,43 +1,44 @@
 .about {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
 
-    div {
-        width: 50%;
+  div {
+    width: 50%;
 
-        h1 {
-            width: 100%;
-            border-bottom: 1px solid white;
-            padding-bottom: 5px;
-            margin-bottom: 5px;
-        }
-
-        ul {
-            list-style-type: none;
-            width: 100%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            li {
-                width: 15%;
-                background-color: white;
-                border-radius: 5px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                height: 30px;
-            }
-        }
+    h1 {
+      width: 100%;
+      border-bottom: 1px solid white;
+      padding-bottom: 5px;
+      margin-bottom: 5px;
     }
 
-    .image {
-        height: 300px;
-        width: 35%;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
+    ul {
+      list-style-type: none;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      li {
+        width: 15%;
+        background-color: rgb(142, 13, 99);
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30px;
+        margin-right: 10px;
+      }
     }
+  }
+
+  .image {
+    height: 300px;
+    width: 35%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
 }

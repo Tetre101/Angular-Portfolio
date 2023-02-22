@@ -1,26 +1,26 @@
 nav {
-    color: #B6EADA !important;
+  color: #6610f2 !important;
 
-    a {
-        color: white !important;
-    }
+  a {
+    color: white !important;
+  }
 
-    span {
-        color: white !important;
-    }
+  span {
+    color: white !important;
+  }
 
-    img {
-        width: 10%;
-    }
+  img {
+    width: 10%;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    ul {
-        li {
-            a {
-                text-align: center;
-                border-bottom: 1px solid white;
-            }
-        }
+  ul {
+    li {
+      a {
+        text-align: center;
+        border-bottom: 1px solid white;
+      }
     }
+  }
 }
