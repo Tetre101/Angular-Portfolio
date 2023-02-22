@@ -81,4 +81,8 @@ button:hover:before {
   }
 }
 
-//
+@media screen and (max-width: 600px) {
+  button {
+    width: 100%;
+  }
+}

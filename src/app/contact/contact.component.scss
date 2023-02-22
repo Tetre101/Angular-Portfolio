@@ -79,3 +79,17 @@ button[type="submit"]:hover {
   text-align: center;
   margin-top: 50px;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 50px 0px 0px 0px;
+  }
+
+  button {
+    width: 100% !important;
+  }
+
+  .contact-form {
+    margin: 0px;
+  }
+}

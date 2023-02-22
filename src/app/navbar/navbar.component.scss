@@ -5,12 +5,12 @@ nav {
     color: white !important;
   }
 
-  span {
+  i {
     color: white !important;
   }
 
   img {
-    width: 10%;
+    width: 25%;
   }
 }
 
@@ -21,6 +21,19 @@ nav {
         text-align: center;
         border-bottom: 1px solid white;
       }
+    }
+  }
+
+  .icon-container {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+  }
+
+  nav {
+    img {
+      width: 45%;
     }
   }
 }
