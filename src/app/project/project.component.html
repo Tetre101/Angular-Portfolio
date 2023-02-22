@@ -1,7 +1,26 @@
-<ul>
-    <li *ngFor="let project of myProject">
-        <h2>{{ project.name }}</h2>
-        <p>{{ project.description }}</p>
-        <a href={{project.link}} target="_blank" (click)="notify()">View</a>
-    </li>
+<!-- <ul>
+  <li *ngFor="let project of myProject">
+    <h2>{{ project.name }}</h2>
+    <p>{{ project.description }}</p>
+    <a href="{{ project.link }}" target="_blank" (click)="notify()">View</a>
+  </li>
+</ul> -->
+<!-- <div class="project-container">
+  <div class="project-card" *ngFor="let project of myProject">
+    <h3>{{ project.name }}</h3>
+    <p>{{ project.description }}</p>
+    <a href="{{ project.html_url }}" target="_blank">View on GitHub</a>
+  </div>
+</div> -->
+<ul class="project-list">
+  <li *ngFor="let project of myProject" class="project-item">
+    <div class="project-info">
+      <h2>{{ project.name }}</h2>
+      <p>{{ project.description }}</p>
+      <a href="{{ project.link }}" target="_blank" (click)="notify()">View</a>
+    </div>
+    <div class="project-image">
+      <img [src]="project.image" alt="{{ project.name }}" />
+    </div>
+  </li>
 </ul>
